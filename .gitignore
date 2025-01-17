@@ -1,5 +1,11 @@
-# Lab intruction files
+# Lab/Assignment intruction files
 Instructions.pdf
 
 # Zipped files
 *.zip
+
+#.class files
+*.class
+
+# Lectures
+/Lectures
