@@ -4,7 +4,8 @@ Instructions.pdf
 # Zipped files
 *.zip
 
-#.class files
+# Dependency directories
+*.jar
 *.class
 
 # Lectures
@@ -15,3 +16,24 @@ Outline.pdf
 
 # BioLab
 BioLab
+
+# VS Code settings
+.vscode
+
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+
+# Build files
+out/
+target/
+bin/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp

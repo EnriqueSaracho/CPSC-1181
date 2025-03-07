@@ -1,5 +1,3 @@
-package Assignments.asgn01;
-
 // Filename: MysteryNumber.java
 // Written by Enrique Saracho Felix
 // Written on 15-01-2025
@@ -9,10 +7,10 @@ package Assignments.asgn01;
  * to think of a number, and then do some calculations with it. The program then
  * calculates and shows the number based on the results provided.
  */
-
 import javax.swing.JOptionPane;
 
 public class MysteryNumber {
+
     final static String title = "Mystery Game";
 
     public static void main(String args[]) {
@@ -42,12 +40,12 @@ public class MysteryNumber {
     /**
      * Generates an option dialog window to ask the user for the difficulty they
      * want for this game
-     * 
+     *
      * @return an integer in the range 0 to 2
      */
     public static int getDifficulty() {
         String message = "Choose the difficulty";
-        String[] options = { "Novice", "Intermediate", "Expert" };
+        String[] options = {"Novice", "Intermediate", "Expert"};
         int diff = JOptionPane.showOptionDialog(null, message, title, JOptionPane.DEFAULT_OPTION,
                 JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
         return diff;
@@ -64,7 +62,7 @@ public class MysteryNumber {
     /**
      * Guides the program to the corresponding method to display the operations
      * depending on the difficulty selected
-     * 
+     *
      * @param diff
      */
     public static void performOperations(int diff) {
@@ -84,8 +82,8 @@ public class MysteryNumber {
     }
 
     /**
-     * Generates multiple message dialog windows displying the operations of novice
-     * level difficulty
+     * Generates multiple message dialog windows displying the operations of
+     * novice level difficulty
      */
     public static void noviceOperations() {
         String message1 = "Add 10";
@@ -110,8 +108,8 @@ public class MysteryNumber {
     }
 
     /**
-     * Generates multiple message dialog windows displying the operations of expert
-     * level difficulty
+     * Generates multiple message dialog windows displying the operations of
+     * expert level difficulty
      */
     public static void expertOperations() {
         String message1 = "Multiply by 202";
@@ -123,9 +121,9 @@ public class MysteryNumber {
     }
 
     /**
-     * Generates an input dialog window to get the result of the operations from the
-     * user
-     * 
+     * Generates an input dialog window to get the result of the operations from
+     * the user
+     *
      * @return a double
      */
     public static double getResults() {
@@ -135,9 +133,9 @@ public class MysteryNumber {
     }
 
     /**
-     * Calculates the mystery number based on the difficulty level its operations
-     * and displays it to the user through a message dialog window
-     * 
+     * Calculates the mystery number based on the difficulty level its
+     * operations and displays it to the user through a message dialog window
+     *
      * @param diff
      * @param result
      */
@@ -163,12 +161,12 @@ public class MysteryNumber {
     /**
      * Generates an option dialog window to ask the user if they wish to keep
      * playing or not
-     * 
+     *
      * @return a boolean
      */
     public static boolean playAgain() {
         String message = "Do you want to play again?";
-        String[] options = { "Yes", "No" };
+        String[] options = {"Yes", "No"};
         int result = JOptionPane.showOptionDialog(null, message, title, JOptionPane.YES_NO_OPTION,
                 JOptionPane.DEFAULT_OPTION, null, options, options[0]);
         boolean flag = (result == 0);
