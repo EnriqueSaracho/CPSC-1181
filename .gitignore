@@ -37,3 +37,6 @@ Thumbs.db
 # Logs and temp files
 *.log
 *.tmp
+
+# Compiling and running intructions for JavaFX
+runJavaFX.txt

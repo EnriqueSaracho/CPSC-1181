@@ -81,7 +81,7 @@ public class Student {
      * Adds a course to the student
      *
      * @param gradePt - the course's grade points
-     * @param cred - the course's credits
+     * @param cred    - the course's credits
      */
     public void addCourse(double gradePt, int cred) {
         gradePts += gradePt;

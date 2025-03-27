@@ -15,7 +15,7 @@ public class Calculator {
                 System.out.print("Enter the arithmetic expression: ");
                 // Get the first operand
                 x = getOperand(in);
-                // Get the second operand
+                // Get the operation
                 op = in.next();
                 // Get the second operand
                 y = getOperand(in);
