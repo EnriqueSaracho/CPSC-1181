@@ -1,5 +1,5 @@
 # Lab/Assignment intruction files
-Instructions.pdf
+[iI]nstructions.pdf
 
 # Zipped files
 *.zip
@@ -10,12 +10,10 @@ Instructions.pdf
 
 # Lectures
 /Lectures
+[Ll]ecture*
 
 # Outline
 Outline.pdf
-
-# BioLab
-BioLab
 
 # VS Code settings
 .vscode
@@ -39,4 +37,20 @@ Thumbs.db
 *.tmp
 
 # Compiling and running intructions for JavaFX
-runJavaFX.txt
+run-java-fx.txt
+
+# Documentation folders
+docs/
+**/docs/
+
+# Example lecture code
+example*
+
+# Test files
+*Test.py
+
+# Assignment/labs expected output files
+expectedOutput.txt
+
+# Final exam cheat sheet
+final-cheat-sheet.txt
